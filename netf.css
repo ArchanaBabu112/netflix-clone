@@ -1,0 +1,445 @@
+
+html {
+    height:100.1%;
+    }
+    html {
+        overflow-y: scroll;
+        }
+
+body{
+    background:#000;
+    color:#fff;
+
+}
+
+.header{
+width:100%;
+height:100.1%;
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/netflix/header-image.png);
+background-size: cover;
+background-position: center;
+padding:10px 8%;
+position:relative;
+height: 850px;
+width: 1225px;
+
+
+}
+
+nav {
+display:flex;
+align-items: center;
+justify-content:space-between;
+padding:10px 0px;
+}
+.logo{
+    width: 9.10rem;
+    height: 3.rem;
+}
+nav button{
+
+    border:0;
+    background:#db0001;
+    color:#fff;
+    padding:7px 20px;
+    cursor: pointer;
+    border-radius :4px;
+    margin-left:10px;
+    font-weight: bold;
+    font-size: 14px;
+    width:87px;
+    outline: 0;
+       
+}
+.language-btn{
+
+    display:inline-flex;
+    align-items:center;
+    background:transparent;
+    border:1px solid #fff;
+padding:6px 9px;
+
+}
+.language-btn{
+    width:90px;
+    margin-left:10px;
+    height:30px;
+}
+.header-content{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    margin-top:90px;
+
+}
+
+.header-content h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+line-height:70px;
+max-width:650px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+
+.header-content h3{
+font-weight:400;
+margin-bottom:20px;
+font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+p{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.email-address{
+background:#fff;
+border-radius:4px;
+display:flex;
+align-items:center;
+margin-top:30px;
+overflow:hidden;
+
+
+}
+.email-signup input{
+    flex:1;
+    border:0;
+    outline:0;
+    margin-left:20px;
+    height: 52px;
+    width: 332px;
+    margin-left: -101px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+
+}
+.email-signup button{
+    background:#db0001;
+    border:0;
+    outline:0;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+ 
+}
+.features
+{
+    padding:50px 12%;
+    font-size:22px;
+
+}
+.row{background-color: rgba(19, 33, 68, 1);
+    display:flex;
+    width:100%;
+    align-items:centre;
+    flex-wrap:wrap;
+    padding:50px 0px;
+    padding-top:50;
+    padding-right:35px
+}
+.text-col1{
+    flex-basis:50%;
+    margin-bottom:20px;
+padding-left:15px}
+
+.text-col2{
+        flex-basis:50%;
+        margin-bottom:20px;
+        margin-left: 654px;
+    margin-top: -351px;}
+
+
+.text-col3{
+    flex-basis:50%;
+    margin-bottom:10px;
+    margin-top: -50px;
+    padding-left:15px;
+}
+
+
+
+.text-col4{
+    flex-basis:49%;
+    margin-bottom:20px;
+    margin-left: 539px;
+    margin-top: -429px;
+    width: 562px;
+    font-size: 18px;}
+
+
+
+
+
+.img-col1{
+    flex-basis: 50%;
+    margin-bottom:20px;
+    padding-left: 593px;
+    padding-top: 0px;
+    width: 587px;
+    height: 435px;
+
+    margin-left: 83px;
+    margin-top: -328px;
+   
+}
+.img-col1 img{
+    display:block;
+    width:90%;
+    margin:auto;
+    padding-left: 78px;
+    width: 299px;
+    height: 223px;
+    padding-top: 0px;
+}
+.features h2{
+    
+    font-size:50px;
+    font-weight:600;
+    margin-bottom:20px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+font-weight:bold;
+}
+
+.img-col2{
+    flex-basis: 50%;
+    margin-bottom:20px;
+    padding-left: 593px;
+    padding-top: 0px;
+    width: 587px;
+    height: 435px;
+    margin-top: -119px;
+    
+    margin-left: -432px;
+    width: 521px;
+    margin-top: 24px;
+}
+
+    .img-col3{
+        flex-basis: 50%;
+        margin-bottom:20px;
+        padding-left: 593px;
+        padding-top: 0px;
+        width: 587px;
+        height: 435px;
+        margin-left: 481px;
+        margin-top: -251px;
+        
+    
+     
+    }
+    .img-col3 img{
+        display:block;
+        width:90%;
+        
+    margin-left: 50%;
+        
+        padding-left: 78px;
+        width: 299px;
+        height: 223px;
+        padding-top: 0px;
+        margin-left: 481px;
+        margin-top: -251px;
+      }
+
+        .img-col4{
+            flex-basis: 50%;
+            margin-bottom:20px;
+            padding-left: 593px;
+            padding-top: 0px;
+            width: 587px;
+            height: 435px;
+            margin-top: -119px;
+            margin-left: -36px;
+        
+   
+        }
+        .img-col4 img{
+            display:block;
+            width:90%;
+            margin:auto;
+            padding-left: 78px;
+            width: 299px;
+            height: 223px;
+            padding-top: 0px;
+            
+        }
+
+        .faq{
+            padding :10px 12%;
+            text-align: center;
+            font-size:18px;
+            font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+            background-color: rgba(19, 33, 68, 1);
+        }
+        .faq h2{
+            font-weight:bold;
+            font-size:40px;
+
+        }
+        .accordion{
+            margin: 60px auto;
+            width:100%;
+            max-width:750px;
+
+        }
+        .accordion li{
+            list-style:none;
+            width:100%;
+            padding: 5px;
+        }
+        .accordion li label{
+            display :flex;
+            align-items:center;
+            padding:20px;
+            font-size:18px;
+            font-weight:500;
+            background:#303030;
+            margin-bottom:2px;
+            cursor:pointer;
+            position:relative;
+
+
+
+        }
+
+        label::after{
+            content:"+";
+            font-size:34px;
+            position:absolute;
+            right:20px;
+
+        }
+        input[type="radio"]{
+            display:none;}
+
+        .accordion.content{
+            background:#303030;
+            text-align:left;
+            padding:0 20px;
+            max-height:0;
+            overflow:hidden;
+            transition: max-height 0.5s ,padding 0.5s;
+        }
+        .accordion input[type="radio"]:checked + label + .content{
+            max-height:600px;
+            padding:30px 20px;
+        }
+        .according input[type="radio"]:checked + label ::after{
+            transform:rotate(135 deg);
+        }
+        .faq.email-signup{
+         max-width:600px;   
+         margin:20px auto 60px;
+
+
+        }
+
+        .faq small{
+            font-size:13px;
+        }
+        .para{
+            padding-left: 175px;
+            font-size: 20px;
+            width: 511px;   
+        }
+        .email2{
+           
+            width: 356px;
+          
+            margin-left: 174px;
+            padding-top: 5px;
+            border-radius: 6px;
+            background-color: rgba(19, 33, 68, 1);
+            font-size: 21px;
+            height: 50px;
+        }
+        .sub-btn{
+            background-color: rgb(200,0,0);
+            margin-left: 11px;
+            width: 185px;
+            
+            font-weight: bold;
+            font-size: 27px;
+            color: white;
+            border-radius: 6px;
+            padding: 13px;
+            margin-top: 3px;
+            margin-top: 11px;
+            height: 60px;
+        }  
+        .submit1{
+            width: 210px;
+            height: 53px;
+            border-radius: 5px;
+            padding-bottom: 2px;
+            font-weight: bold;
+            font-size: 21px;
+            margin-bottom: 7px;
+            
+        } 
+        .questions{
+           
+            padding:50px 15% 10px;
+            border-top: 6px solid #333;
+            color:#777;
+
+        }
+
+        .footer h2{
+            font-size:18px;
+            font-weight:400;
+            margin-bottom:30px;
+        }
+        .footer.col{
+            flex-basis :25%;
+            flex-grow:1;
+            margin-bottom:20px;
+
+        }
+       
+        .footer.col.a{
+            display:block;
+            text-decoration:none;
+            color:#777;
+            font-size:14px;
+            margin: bottom 10px;
+        }
+      .footer.language-btn{
+        color:#fff;
+        padding:10px 20px;
+        border-radius:3px;
+      }
+      .copyright-txt{
+        font-size:14px;
+        margin-top:20px;
+        margin-bottom:10px;
+        margin-left: -76px;
+        margin-bottom: -118px;
+      }
+
+.language-btn{
+    color: white;
+    margin-left: 1px;
+    margin-top: 63px;
+    margin-bottom:66px
+}
+
+.footer1{
+    margin-left: -72px;
+    color:white;
+    margin-bottom: -200px;
+}
+.row{
+    padding-left: 12px;
+    font-size: 18px;
+}
+    .footer{
+        margin-left:215px;
+        margin-top: -37px;
+    }
+.title{
+    font-size: 40px;
+}
